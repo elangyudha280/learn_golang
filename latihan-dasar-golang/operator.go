@@ -64,4 +64,5 @@ func main() {
 	fmt.Println("OR:", nilai6 > 5 || nilai7 < 10)
 	// NOT
 	fmt.Println("NOT:", !true)
+
 }
