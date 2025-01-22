@@ -16,9 +16,9 @@
 
 	* 1. menentukan secara jelas jumlah index dan element yg ada di dalam array
 	/
-		* var||const nama_var [jumlah_index]tipedata;
+		* var nama_var [jumlah_index]tipedata;
 		||
-		* var||const nama_var  = [jumlah_index]tipedata{
+		* var nama_var  = [jumlah_index]tipedata{
 		   * value1,
 		   * value2,
            * value3,
@@ -30,7 +30,7 @@
 		* angka[1] = 2;
 		* angka[2] = 3;
 		||
-		* var||const angka = [3]int{1, 2, 3}
+		* var angka = [3]int{1, 2, 3}
 
 		! kelebihan
 		*1. kita bisa secara jelas menentukan jumlah element atau nilai yg ada di dalam array
@@ -45,7 +45,7 @@
 
 	* 2. menentukan secara otomatis jumlah element yg ada di dalam array
 	/
-		* var||const nama_var  = [...]tipedata{
+		* var nama_var  = [...]tipedata{
 		   * value1,
 		   * value2,
            * value3,
@@ -55,7 +55,7 @@
 		todo: var angka [...]int; -> ini artinya variable ini akan bertipe data array yg jumlah elementnya bebas dan tipe datanya harus number || int
 
 		! cara set value
-        * var||const angka = [...]int{1, 2, 3}
+        * var angka = [...]int{1, 2, 3}
 
 		! kelebihan
         *1. kita bisa secara otomatis menentukan jumlah element atau nilai yg ada di dalamn array
