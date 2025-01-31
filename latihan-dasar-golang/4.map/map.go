@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//todo: deklarasi map manual
+	//todo: deklarasi map langsung
 	person := map[string]string{
 		"name": "person1",
 		"umur": "19",
@@ -26,7 +26,7 @@ func main() {
 	delete(person, "umur")
 	fmt.Println(person)
 
-	//! buat map dengan function make
+	//! buat map dengan function make || manual
 	person2 := make(map[string]string)
 	person2["name"] = "person2"
 
