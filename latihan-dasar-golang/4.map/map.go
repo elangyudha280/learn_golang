@@ -12,6 +12,9 @@ func main() {
 
 	fmt.Println(person)
 
+	//! cek key di map
+	name2, ifexists := person["name"]
+	fmt.Println(name2, ifexists)
 	//! akses data map
 	// fmt.Println(person["name"])
 
