@@ -13,8 +13,7 @@
 	/
 		* if kondisi {
 		* program
-		*}
-		* else if kondisi{
+		*} else if kondisi{
 		* program
 		*}
 		* else {
