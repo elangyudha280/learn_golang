@@ -66,6 +66,52 @@
 		* value1, value2,...value(sesuaikan dengan return value di fungsinya) := nama_function()
 	/
 
+	! VARIADIC FUNCTION
+	TODO:Variadic function adalah fungsi yang bisa menerima jumlah argumen yang tidak terbatas .
+	TODO: NOTES: JADI HAMPIR MIRIP DENGAN REST PARAMETER DI JAVASCRIPT
+	todo: notes: Tidak bisa memiliki lebih dari satu variadic parameter dalam satu fungsi.
+	/
+		* func nama_function(nama_paramter ...tipedata){
+			* paramater varidic function tipe datanya slice
+		*}
 
+		* nama_function(valu1,value2,...value)
+		||
+		data_slice := int{1,2,3,4}
+		* nama_function(data_slice...)
+	/
+
+
+	!! FUNCTION AS VALUE
+	TODO: function yg disimpan sebagai value di variable
+	todo:note jadi ketika kita ingin memanggil functionnya kita panggil nama variablenya
+	* func nama_function(...paramter tipe_Data) koson | tipe_data {
+	* ...programs
+	* }
+
+	* nama_var := nama_function;
+	* nama_var(...arguments)
+
+	! FUNCTION AS PARAMETER || CALLBACK
+	TODO: CALLBACK ADALAH SEBUAH FUNGSI YG DI BERADA DI PARAMETER ATAU DIKIRIM SEBAGAI ARGUMENTS
+	* func nama_function(nama_parameter func(tipe_Data) tipe_data_return_value | 'kosong'){
+	*	...program
+	* contoh: nama_parameter_as_function(...arguments)
+	* }
+
+	! ANONYMOUS FUNCTION || FUNCTION TANPA NAMA
+	TODO: ANONYMOUS FUNCTION ADALAH FUNCTION TANPA YG DIBUAT TANPA MENGGUNAKAN NAMA
+	TODO: NOTES: BIASANYA ANONYMOUS FUNCTION DIBUAT DI DALAM VARIABLE ATAU DI GUNAKAN LANSUNG SEBAGAI CALLBACK
+	* nama_variable := func nama_function(...parameter) tipe_data {
+	* ...programs
+	* }
+	||
+	* func nama_function(nama_params_func_as_callback func(tipedata) tipe_Data {
+	* ...programs
+	* contoh : nama_params_func_as_callback(value)
+	* }
+	* nama_function((value){
+	* ...programs
+	*})
 
 */
