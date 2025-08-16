@@ -4,7 +4,7 @@
 
 //! 1. APA ITU STRUCT
 /*
-	STRUCT ADALAH SINGKATAN DARI STRUCTURE sebuah tipe data di Golang yang bisa menyimpan beberapa nilai dan tipe data dalam satu kesatuan.
+	? STRUCT ADALAH SINGKATAN DARI STRUCTURE sebuah tipe data di Golang yang bisa menyimpan beberapa nilai dan tipe data dalam satu kesatuan.
 */
 //todo: jadi hampir mirip seperti object atau Class di JavaScript  tanpa fungsi inheritance di OOP.
 //todo: notes jadi bisa dibilang struct ini adalah cetakan atau blueprint dari object yg memiliki property dan juga method

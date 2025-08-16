@@ -1,9 +1,5 @@
 package main
 
-import (
-	"slices"
-)
-
 // func HowMuchILoveYou(i int) string {
 // 	kelopak := []int{}
 // 	for j := 1; j <= i; j++ {
@@ -51,17 +47,66 @@ import (
 //   }
 
 // reverse value
-func ReverseSeq(n int) []int {
-	var tempSlice []int
-	for i := 1; i <= n; i++ {
-		tempSlice = append(tempSlice, i)
-	}
-	slices.Reverse(tempSlice)
+// func ReverseSeq(n int) []int {
+// 	var tempSlice []int
+// 	for i := 1; i <= n; i++ {
+// 		tempSlice = append(tempSlice, i)
+// 	}
+// 	slices.Reverse(tempSlice)
 
-	// sort.Sort(sort.Reverse(sort.IntSlice(mySlice))
-	return tempSlice
+// 	// sort.Sort(sort.Reverse(sort.IntSlice(mySlice))
+// 	return tempSlice
+// }
+
+//! Grasshopper - Check for factor
+
+// func CheckForFactor(base int, factor int) bool {
+//   if  base % factor == 0 {
+// 	fmt.Println(base % factor)
+//     return true
+//   }
+
+//   return false
+// }
+
+//! Litres
+// func Litres(time float64) int {
+//   //The fun begins here.
+//   return int(time * 0.5)
+// }
+
+//! SquareSum
+// func SquareSum(numbers []int) int {
+//     // your code here
+// 	var total int
+// 	var total2 int
+// 	for _,value := range numbers {
+// 		total += value * 2
+// 		total2 += value * value
+// 	}
+//   return total2
+// }
+
+//! makes negaitve
+
+// func MakeNegative(x int) int {
+// 	if  x < 0 {
+// 		return x
+// 	}
+
+// 	return -x
+// }
+
+//! sortting slice
+
+func SortNumbers(numbers []int) []int {
+  if numbers == nil {
+    return nil
+  }
+  fmt.println("numbers before sort:", numbers)
+//   var angka = numbers.Sort()
+  return numbers
 }
-
 func main() {
 	// print(countSheep(3))
 	// Between(1, 4)
@@ -85,6 +130,18 @@ func main() {
 	// for {
 	// 	fmt.Println("mahasiwa")
 	// }
-	ReverseSeq(5)
+	// ReverseSeq(5)
+	// fmt.Println(CheckForFactor(10, 2))
+	// fmt.Println(CheckForFactor(63, 7))
 
+	// fmt.Println(Litres(1.4))
+	// fmt.Println(SquareSum([]int{1,2}))
+
+
+	// fmt.Println(MakeNegative(9))
+	// fmt.Println(MakeNegative(-606))
+	// fmt.Println(MakeNegative(42))
+	// fmt.Println(MakeNegative(0))
+
+	SortNumbers([]int{1, 2, 10, 50, 5})
 }
