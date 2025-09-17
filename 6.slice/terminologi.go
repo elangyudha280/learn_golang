@@ -18,7 +18,7 @@
 	*
 		* 1. pointer = penunjuk data awal dari array untuk slicenya
 		* 2. length = panjang data yg ada di slicenya
-		* 3. capacity = kapasitas atau jumlah data slicenya yg dimulai dari pointer arraynya
+		* 3. capacity = kapasitas atau tempat yg ada di slicenya yg dimulai dari pointer arraynya
 	*
 
 	* CARA BUAT SLICE LANGSUNG
@@ -53,8 +53,12 @@
 
 	fungsi yg bisa digunakan
 
-	* len(data_slice) = unutk mengetahui panjang data slicenya
-	* cap(data_slicee) = untuk mengetahui kapasitas slicenya
-	* append(data_Slice1,data_slice2) = untuk menambahkan data ke slice
+	* len(slice) = unutk mengetahui panjang data slicenya
+	* cap(slice) = untuk mengetahui kapasitas slicenya
+	* append({}slice,data_Slice1,data_slice2) = untuk menambahkan data ke slice
+	* copy({}slice,data_slice2) = untuk mengcopy data dari slice 2 ke slice 1
+	* make([]tipedata,panjang,kapasitas) = untuk membuat slice baru
+	* delete(slice,index) = untuk menghapus data di slice berdasarkan indexnya
+
 	TODO: JIKA KITA MENAMBHAKAN DATA DENGAN APPEND JIKA DATA YG DI TAMBAHKAN LEBIH DARI KAPASITAS SLICENYA MAKA AKAN MEMBUAT ARRAY BARU JADI TIDAK MENGGUNAKAN ARRAY YG SEBELUMNNYA LAGI
 */

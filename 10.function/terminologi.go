@@ -94,7 +94,7 @@
 
 	! FUNCTION AS PARAMETER || CALLBACK
 	TODO: CALLBACK ADALAH SEBUAH FUNGSI YG DI BERADA DI PARAMETER ATAU DIKIRIM SEBAGAI ARGUMENTS
-	* func nama_function(nama_parameter func(tipe_Data) tipe_data_return_value | 'kosong'){
+	* func nama_function(nama_parameter func(param tipe_Data) tipe_data_return_value | 'kosong'){
 	*	...program
 	* contoh: nama_parameter_as_function(...arguments)
 	* }
